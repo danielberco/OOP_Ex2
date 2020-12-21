@@ -1,7 +1,10 @@
 # Pokemon Ariel - OOP Ex2 
+<img width="500" height="500" src="https://github.com/danielberco/OOP_Ex2/blob/main/resources/logo.png?raw=true">
 
-
-
+In this Pokemon game you have to manage a group of agents whose goal is to catch as many pokemons as possible before that time will run out.
+The more Pokemon you catch, the more points you earn.
+The game is played on achanging game board, in accordance of the stage you chose to play (there are 24 different stages, with increasing difficulty).
+The movement in the board is on a `weighted directed graph`, on which Pokemon are randomly scattered, whichagents can catch by moving close to them on the graph.
 
 The game is played by the computer's AI which have the following options :
 * Number of points - the points are valued by the type of the specific pokemon.
@@ -24,6 +27,11 @@ Once you entered the game the first thing you will do is to type an ID to the lo
 
 Next , you must chose a game level , there are 0-24 levels you can choose and play.
 Remeber, once you start the game , the timse is running and effecting the score.
+
+<img width="500" height="500" src="https://github.com/danielberco/OOP_Ex2/blob/main/resources/gameplay.png?raw=true">
+
+
+
 
 
 
